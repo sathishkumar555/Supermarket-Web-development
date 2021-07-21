@@ -32,9 +32,24 @@
               "src/styles.css"
             ],
             "scripts": [
+              "src/assets/js/vendor/modernizr-3.6.0.min.js",
               "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/vendor/jquery-migrate-3.3.0.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/plugins/slick.js",
+              "src/assets/js/plugins/jquery.syotimer.min.js",
+              "src/assets/js/plugins/jquery.instagramfeed.min.js",
+              "src/assets/js/plugins/jquery.nice-select.min.js",
+              "src/assets/js/plugins/wow.js",
+              "src/assets/js/plugins/jquery-ui-touch-punch.js",
+              "src/assets/js/plugins/jquery-ui.js",
+              "src/assets/js/plugins/magnific-popup.js",
+              "src/assets/js/plugins/sticky-sidebar.js",
+              "src/assets/js/plugins/easyzoom.js",
+              "src/assets/js/plugins/scrollup.js",
+              "src/assets/js/plugins/ajax-mail.js",
+              "src/assets/js/main.js"
             ]
           },
           "configurations": {

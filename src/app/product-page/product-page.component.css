@@ -1,4 +1,16 @@
 /*-------- 8. Product style --------------------------------------------------------------------*/
+@import "../../assets/css/vendor/signericafat.css";
+@import "../../assets/css/vendor/cerebrisans.css";
+@import "../../assets/css/vendor/simple-line-icons.css";
+@import "../../assets/css/vendor/elegant.css";
+@import "../../assets/css/vendor/linear-icon.css";
+@import "../../assets/css/plugins/nice-select.css";
+@import "../../assets/css/plugins/easyzoom.css";
+@import "../../assets/css/plugins/slick.css";
+@import "../../assets/css/plugins/animate.css";
+@import "../../assets/css/plugins/magnific-popup.css";
+/* @import "../../assets/css/plugins/jquery-ui.css"; */
+
 .product-area {
     overflow: hidden;
   }
@@ -5094,3 +5106,4 @@
   }
   
   /*------ end Compare Page Wrapper -----*/
+  
