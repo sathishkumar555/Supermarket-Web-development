@@ -11,5 +11,6 @@ export class ShopPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  images = [1, 2, 3, 4, 5,6].map((n) => `/assets/img/l${n}.jpg`);
 
 }

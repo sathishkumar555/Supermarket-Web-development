@@ -7,7 +7,7 @@
                   <div class="col-lg-5 col-md-5 col-12 col-sm-12">
                       <div class="hero-slider-content-6 slider-content-hm9 slider-content-hm10">
                           <h5 class="animated">Best Seller</h5>
-                          <h1 class="animated">Kitchen & Snack Essential</h1>
+                          <h1 class="animated">Staples Essential</h1>
                           <p class="animated">Buy 1 get 1 free</p>
                           <div class="btn-style-1">
                               <a class="animated btn-1-padding-4 btn-1-orange btn-1-font-14" href="/product-page">Explore Now</a>
@@ -16,7 +16,35 @@
                   </div>
                   <div class="col-lg-7 col-md-7 col-12 col-sm-12">
                       <div class="hm10-hero-slider-img">
-                          <img class="animated" src="assets/images/slider/hm-10-slider-1.png" alt="">
+                        <ngb-carousel *ngIf="images">
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[0]" alt="Random first slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>First slide label</h3> -->
+                                <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                              </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[1]" alt="Random second slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>Second slide label</h3> -->
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                              </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[2]" alt="Random third slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>Third slide label</h3> -->
+                                <p>Praesent commodo c/ursus magna, vel scelerisque nisl consectetur.</p>
+                              </div>
+                            </ng-template>
+                        </ngb-carousel>
                       </div>
                   </div>
               </div>
@@ -35,8 +63,36 @@
                   </div>
                   <div class="col-lg-7 col-md-7 col-12 col-sm-12">
                       <div class="hm10-hero-slider-img">
-                          <img class="animated" src="assets/images/slider/hm-10-slider-1.png" alt="">
-                      </div>
+                        <ngb-carousel *ngIf="images">
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[0]" alt="Random first slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>First slide label</h3> -->
+                                <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                              </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[1]" alt="Random second slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>Second slide label</h3> -->
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                              </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                              <div class="picsum-img-wrapper">
+                                <img [src]="images[2]" alt="Random third slide">
+                              </div>
+                              <div class="carousel-caption">
+                                <!-- <h3>Third slide label</h3> -->
+                                <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                              </div>
+                            </ng-template>
+                        </ngb-carousel>
+                    </div>
                   </div>
               </div>
           </div>

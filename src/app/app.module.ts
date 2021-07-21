@@ -16,6 +16,7 @@ import { OrdertrackingComponent } from './ordertracking/ordertracking.component'
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ShopPageComponent } from './shop-page/shop-page.component';
 import { CompareComponent } from './compare/compare.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CompareComponent } from './compare/compare.component';
     RouterModule.forRoot([
       {path:'',component:HomepageComponent},
       {path:'homepage',component:HomepageComponent},
+      {path:'',component:HomepageComponent},
       {path:'cartpage',component:CartpageComponent},
       {path:'checkout',component:CheckoutComponent},
       {path:'contactus',component:ContactusComponent},
@@ -49,7 +51,8 @@ import { CompareComponent } from './compare/compare.component';
       {path:'product-page',component:ProductPageComponent},
       {path:'shop-page',component:ShopPageComponent},
       {path:'compare',component:CompareComponent}
-    ])
+    ]),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

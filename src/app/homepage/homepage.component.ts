@@ -11,5 +11,5 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = [1, 2, 1].map((n) => `/assets/img/s${n}.jpg`);
 }
