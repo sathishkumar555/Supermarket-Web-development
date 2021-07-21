@@ -36,6 +36,7 @@ import { CompareComponent } from './compare/compare.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      {path:'',component:HomepageComponent},
       {path:'homepage',component:HomepageComponent},
       {path:'cartpage',component:CartpageComponent},
       {path:'checkout',component:CheckoutComponent},

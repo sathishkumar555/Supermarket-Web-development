@@ -95,6 +95,7 @@
                                         <option>Bahrain</option>
                                         <option>Bangladesh</option>
                                         <option>Barbados</option>
+                                        <option>India</option>
                                     </select>
                                 </div>
                             </div>
@@ -178,6 +179,7 @@
                                             <option>Bahrain</option>
                                             <option>Bangladesh</option>
                                             <option>Barbados</option>
+                                            <option>India</option>
                                         </select>
                                     </div>
                                 </div>
@@ -238,24 +240,25 @@
                                 </div>
                                 <div class="your-order-middle">
                                     <ul>
-                                        <li>Product Name X 1 <span>$329 </span></li>
-                                        <li>Product Name X 1 <span>$329 </span></li>
+                                        <li>Fortune Rozana Basmati Rice X 1 <span>&#8377;329.00 </span></li>
+                                        <li>INDIA GATE Basmati Rice X 1 <span>&#8377;316.00</span></li>
+                                        <li>Daawat Biryani Basmati Rice X 1 <span>&#8377;169.00 </span></li>
                                     </ul>
                                 </div>
                                 <div class="your-order-info order-subtotal">
                                     <ul>
-                                        <li>Subtotal <span>$329 </span></li>
+                                        <li>Subtotal <span>&#8377;814 </span></li>
                                     </ul>
                                 </div>
                                 <div class="your-order-info order-shipping">
                                     <ul>
-                                        <li>Shipping <p>Enter your full address </p>
+                                        <li>Shipping <textarea placeholder="Enter your full address " name="message"></textarea>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="your-order-info order-total">
                                     <ul>
-                                        <li>Total <span>$273.00 </span></li>
+                                        <li>Total <span>&#8377;814.00 </span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -291,7 +294,11 @@
                             </div>
                         </div>
                         <div class="Place-order">
-                            <a href="#">Place Order</a>
+                            <div class="alert alert-success" role="alert" *ngIf="isShown">
+                                <h4 class="alert-heading">Order Placed!</h4>
+                                <p>You Have sucessfully placed Your Order</p>
+                                </div>
+                            <a  (click)="toggleShow()">Place Order</a>
                         </div>
                     </div>
                 </div>

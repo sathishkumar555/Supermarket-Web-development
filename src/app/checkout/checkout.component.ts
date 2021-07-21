@@ -8,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class CheckoutComponent implements OnInit {
 
   constructor() { }
-
+isShown: boolean;
   ngOnInit(): void {
+    this.isShown=false;
+  }
+  toggleShow(){
+    this.isShown=! this.isShown;
+    setTimeout(()=>{
+      window.location.href = "/";
+    },4000)
   }
 
 }
