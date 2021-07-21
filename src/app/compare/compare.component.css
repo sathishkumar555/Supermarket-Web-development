@@ -1,0 +1,164 @@
+/*----------------------------- 21. Compare style -----------------------------*/
+.compare-table .table tbody tr {
+    margin-bottom: 20px;
+  }
+  
+  .compare-table .table tbody tr td {
+    padding: 20px 20px;
+    vertical-align: middle;
+    border-color: #ccc;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .compare-table .table tbody tr td {
+      padding: 20px 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .compare-table .table tbody tr td {
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+  }
+  
+  .compare-table .table tbody tr td.first-column {
+    min-width: 175px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .compare-table .table tbody tr td.first-column {
+      min-width: 110px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .compare-table .table tbody tr td.first-column {
+      min-width: 100%;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 5px;
+      margin-top: 35px;
+    }
+  }
+  
+  .compare-table .table tbody tr td.product-image-title {
+    min-width: 310px;
+    vertical-align: bottom;
+    text-align: left;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .compare-table .table tbody tr td.product-image-title {
+      min-width: 210px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .compare-table .table tbody tr td.product-image-title {
+      min-width: 110px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .compare-table .table tbody tr td.product-image-title {
+      min-width: 100%;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      padding: 20px;
+    }
+  }
+  
+  .compare-table .table tbody tr td.product-image-title .image {
+    clear: both;
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .compare-table .table tbody tr td.product-image-title .image img {
+    width: 100%;
+  }
+  
+  .compare-table .table tbody tr td.product-image-title .category {
+    float: left;
+    clear: both;
+    color: #ff2f2f;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+  }
+  
+  .compare-table .table tbody tr td.product-image-title .title {
+    float: left;
+    clear: both;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .compare-table .table tbody tr td.product-image-title .title {
+      font-size: 16px;
+    }
+  }
+  
+  .compare-table .table tbody tr td.product-image-title .title:hover {
+    color: #ff2f2f;
+  }
+  
+  .compare-table .table tbody tr td.pro-desc p {
+    text-align: left;
+    margin: 0;
+  }
+  
+  .compare-table .table tbody tr td a.check-btn {
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .compare-table .table tbody tr td a.check-btn:hover {
+    color: #ff2f2f;
+  }
+  
+  .compare-table .table tbody tr td.pro-price, .compare-table .table tbody tr td.pro-color, .compare-table .table tbody tr td.pro-stock {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .compare-table .table tbody tr td.pro-remove button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .compare-table .table tbody tr td.pro-remove button:hover {
+    color: #ff2f2f;
+  }
+  
+  .compare-table .table tbody tr td.pro-remove button i {
+    font-size: 20px;
+  }
+  
+  .compare-table .table tbody tr td.pro-ratting i {
+    color: #e7a415;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .compare-page-wrapper.pt-90 {
+      padding-top: 20px;
+    }
+  }
+  
+  /*------ end Compare Page Wrapper -----*/

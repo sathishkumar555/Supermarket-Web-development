@@ -1,0 +1,360 @@
+/*----------------------------- 6. About us style -----------------------------*/
+.about-us-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .about-us-content p {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    line-height: 36px;
+    margin: 23px 0 51px;
+    width: 93%;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-us-content p {
+      font-size: 18px;
+      line-height: 34px;
+      margin: 15px 0 40px;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content p {
+      font-size: 18px;
+      line-height: 34px;
+      margin: 10px 0 30px;
+      width: 100%;
+    }
+  }
+  
+  .about-us-content .signature h2 {
+    font-size: 24px;
+    font-family: "Signerica Fat";
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content {
+      margin-top: 20px;
+    }
+  }
+  
+  .about-content-pb {
+    padding-bottom: 120px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-content-pb {
+      padding-bottom: 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-content-pb {
+      padding-bottom: 60px;
+    }
+  }
+  
+  .about-us-content-2 .about-us-content-2-title {
+    margin: 0 0 35px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-us-content-2 .about-us-content-2-title {
+      margin: 0 0 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-2 .about-us-content-2-title {
+      margin: 0 0 15px;
+    }
+  }
+  
+  .about-us-content-2 .about-us-content-2-title h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.25px;
+    margin: 0;
+  }
+  
+  .about-us-content-2 p {
+    line-height: 30px;
+    margin: 0 0 35px;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-us-content-2 p {
+      margin: 0 0 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-2 p {
+      margin: 0 0 15px;
+    }
+  }
+  
+  .about-us-content-2 p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about-us-content-3 h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-3 h3 {
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .about-us-content-3 h3 {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  
+  .about-us-content-3 h3 span {
+    font-weight: bold;
+    color: #0064e0;
+  }
+  
+  .about-us-content-3 p {
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-3 p {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .about-us-content-3 p {
+      font-size: 16px;
+      width: 78%;
+      margin: 0 auto;
+    }
+  }
+  
+  .about-us-content-4 .about-us-content-4-title {
+    margin: 0 0 26px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-4 .about-us-content-4-title {
+      margin: 0 0 15px;
+    }
+  }
+  
+  .about-us-content-4 .about-us-content-4-title h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.25px;
+    margin: 0;
+  }
+  
+  .about-us-content-4 p {
+    line-height: 28px;
+    margin: 0 0 21px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-content-4 p {
+      margin: 0 0 15px;
+    }
+  }
+  
+  .about-us-content-4 p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .team-wrapper .team-img {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .team-wrapper .team-img img {
+    width: 100%;
+  }
+  
+  .team-wrapper .team-img .team-action {
+    background: #fff none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  .team-wrapper .team-img .team-action a {
+    color: #fff;
+    font-size: 12px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 7px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+  }
+  
+  .team-wrapper .team-img .team-action a.facebook {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+  }
+  
+  .team-wrapper .team-img .team-action a.facebook:hover {
+    background-color: transparent;
+    color: #3b5998;
+  }
+  
+  .team-wrapper .team-img .team-action a.twitter {
+    background-color: #55acee;
+    border: 1px solid #55acee;
+  }
+  
+  .team-wrapper .team-img .team-action a.twitter:hover {
+    background-color: transparent;
+    color: #55acee;
+  }
+  
+  .team-wrapper .team-img .team-action a.instagram {
+    background-color: #c32aa3;
+    border: 1px solid #c32aa3;
+  }
+  
+  .team-wrapper .team-img .team-action a.instagram:hover {
+    background-color: transparent;
+    color: #c32aa3;
+  }
+  
+  .team-wrapper .team-content {
+    padding: 20px 10px 21px;
+    -webkit-box-shadow: 0 3px 5px rgba(85, 85, 85, 0.2);
+            box-shadow: 0 3px 5px rgba(85, 85, 85, 0.2);
+  }
+  
+  .team-wrapper .team-content h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  
+  .team-wrapper .team-content span {
+    font-size: 15px;
+    font-style: italic;
+    color: #000000;
+  }
+  
+  .team-wrapper:hover .team-action {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+  }
+  
+  .single-testimonial-2 .testimonial-img {
+    text-align: center;
+  }
+  
+  .single-testimonial-2 .testimonial-img img {
+    display: inline-block;
+  }
+  
+  .single-testimonial-2 p {
+    width: 70%;
+    margin: 20px auto 20px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #333;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-testimonial-2 p {
+      width: 85%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-testimonial-2 p {
+      width: 79%;
+      margin: 15px auto 20px;
+      font-size: 17px;
+      line-height: 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .single-testimonial-2 p {
+      width: 100%;
+      margin: 14px auto 15px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  
+  .single-testimonial-2 .client-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    line-height: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .single-testimonial-2 .client-info h5 {
+      font-size: 18px;
+    }
+  }
+  
+  .single-testimonial-2 .client-info span {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    line-height: 1;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-us-area.pt-85 {
+      padding-top: 25px;
+    }
+    .team-area.pb-90 {
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .about-us-area.pt-85 {
+      padding-top: 20px;
+    }
+    .team-area.pb-90 {
+      padding-bottom: 30px;
+    }
+  }
