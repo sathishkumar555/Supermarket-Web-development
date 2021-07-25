@@ -2,6 +2,18 @@
 /*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Heebo:wght@300;400;500;600;700;800;900&family=Jost:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 /*-- Common Style --*/
+
+@import "./assets/css/vendor/signericafat.css";
+@import "./assets/css/vendor/cerebrisans.css";
+@import "./assets/css/vendor/simple-line-icons.css";
+@import "./assets/css/vendor/elegant.css";
+@import "./assets/css/vendor/linear-icon.css";
+@import "./assets/css/plugins/nice-select.css";
+@import "./assets/css/plugins/easyzoom.css";
+@import "./assets/css/plugins/slick.css";
+@import "./assets/css/plugins/animate.css";
+@import "./assets/css/plugins/magnific-popup.css";
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
